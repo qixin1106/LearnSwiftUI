@@ -13,20 +13,8 @@ struct LSTextView: View {
             Text("Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!")
                 //字体设置
                 .font(.largeTitle)
-//                .font(.title)
-//                .font(.title2)
-//                .font(.title3)
-//                .font(.headline)
-//                .font(.subheadline)
-//                .font(.body)
-//                .font(.callout)
-//                .font(.footnote)
-//                .font(.caption)
-//                .font(.caption2)
-
                 //大小设置
-//                .frame(width: 256, height: 256, alignment: .center)
-                .frame(minWidth: 64, idealWidth: 128, maxWidth: 256, minHeight: 64, idealHeight: 128, maxHeight: 256, alignment: .center)
+                .frame(minWidth: 64, idealWidth: 128, maxWidth: 256, minHeight: 64, idealHeight: 128, maxHeight: 128, alignment: .center)
                 //文字颜色
                 .foregroundColor(Color.red)
                 //背景颜色
@@ -44,25 +32,72 @@ struct LSTextView: View {
                 .foregroundColor(Color.green)
                 .background(Color.black)
                 //单独设置内边距
-                .padding(EdgeInsets(top: 50, leading: 10, bottom: 0, trailing: 10))
+                .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
                 //截断模式，如UIKit
                 .truncationMode(.tail)
-//                .truncationMode(.head)
-//                .truncationMode(.middle)
             
             
-            Text("Hello, World!Hello, World!Hello, World!Hello, World!")
+            Text("Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!")
                 .foregroundColor(Color.purple)
                 .background(Color.black)
                 .lineLimit(2)
-                .frame(width: 128)
-                .padding(20)
+                .frame(width: 256)
                 .font(.system(size: 20))
                 //超长之后比例缩放，如UIKit
                 .minimumScaleFactor(0.5)
                 //转大小写
                 .textCase(.uppercase)
-//                .textCase(.lowercase)
+            
+            
+            
+            
+            
+            
+            Text("Hello World")
+                .italic()
+            
+            
+            
+            
+            Text("Hello World")
+                .bold()
+                .italic()
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            /**
+             public static let ultraLight: Font.Weight
+             public static let thin: Font.Weight
+             public static let light: Font.Weight
+             public static let regular: Font.Weight
+             public static let medium: Font.Weight
+             public static let semibold: Font.Weight
+             public static let bold: Font.Weight
+             public static let heavy: Font.Weight
+             public static let black: Font.Weight
+             */
+            /**
+             case `default`
+
+             @available(watchOS 7.0, *)
+             case serif
+
+             case rounded
+
+             @available(watchOS 7.0, *)
+             case monospaced
+             */
+            
+            Text("Hello World")
+                .font(.system(size: 20, weight: Font.Weight.black, design: Font.Design.monospaced))
+
+            
         }
     }
 }
@@ -70,6 +105,6 @@ struct LSTextView: View {
 struct LSTextView_Previews: PreviewProvider {
     static var previews: some View {
         LSTextView()
-            
+        
     }
 }
