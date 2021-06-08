@@ -7,15 +7,22 @@
 
 import SwiftUI
 
+
+
+
 struct LSButtonView: View {
     
     @State private var isPresented = false
+    @State private var isOn = false
+    @State private var alertTitle = ""
+
     
     var body: some View {
         VStack {
             
             //按钮1：图文按钮
             Button(action: {
+                alertTitle = "On Click Button1"
                 isPresented = true
             }, label: {
                 //水平布局，图文样式
@@ -31,6 +38,7 @@ struct LSButtonView: View {
             
             //按钮2：纯文字
             Button("Button2") {
+                alertTitle = "On Click Button2"
                 isPresented = true
             }
             .font(.system(size: 30))
@@ -38,7 +46,7 @@ struct LSButtonView: View {
 
         }
         .alert(isPresented: $isPresented, content: {
-            Alert(title: Text("Button was tapped"), message: nil, dismissButton: Alert.Button.default(Text("OK")))
+            Alert(title: Text(alertTitle), message: nil, dismissButton: Alert.Button.default(Text("OK")))
         })
     }
 }

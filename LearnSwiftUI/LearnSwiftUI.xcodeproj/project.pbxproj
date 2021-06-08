@@ -11,6 +11,7 @@
 		9936AA47266F11990080A22B /* LSStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA46266F11990080A22B /* LSStackView.swift */; };
 		9936AA4B266F138D0080A22B /* LSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA4A266F138D0080A22B /* LSImageView.swift */; };
 		9936AA4D266F17F60080A22B /* LSButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA4C266F17F60080A22B /* LSButtonView.swift */; };
+		9936AA50266F1FA50080A22B /* LSToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA4F266F1FA50080A22B /* LSToggleView.swift */; };
 		99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */; };
 		99D7DF33266F036000BC3256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF32266F036000BC3256 /* ContentView.swift */; };
 		99D7DF35266F036100BC3256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7DF34266F036100BC3256 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		9936AA46266F11990080A22B /* LSStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStackView.swift; sourceTree = "<group>"; };
 		9936AA4A266F138D0080A22B /* LSImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSImageView.swift; sourceTree = "<group>"; };
 		9936AA4C266F17F60080A22B /* LSButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSButtonView.swift; sourceTree = "<group>"; };
+		9936AA4F266F1FA50080A22B /* LSToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSToggleView.swift; sourceTree = "<group>"; };
 		99D7DF2D266F036000BC3256 /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIApp.swift; sourceTree = "<group>"; };
 		99D7DF32266F036000BC3256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		9936AA4E266F1F990080A22B /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				9936AA4F266F1FA50080A22B /* LSToggleView.swift */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
 		99D7DF24266F036000BC3256 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +102,7 @@
 		99D7DF2F266F036000BC3256 /* LearnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9936AA4E266F1F990080A22B /* Toggle */,
 				9936AA48266F13820080A22B /* Button */,
 				9936AA49266F13820080A22B /* Image */,
 				9936AA45266F11860080A22B /* Stack */,
@@ -187,6 +198,7 @@
 				9936AA44266F09EE0080A22B /* LSTextView.swift in Sources */,
 				9936AA4D266F17F60080A22B /* LSButtonView.swift in Sources */,
 				99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */,
+				9936AA50266F1FA50080A22B /* LSToggleView.swift in Sources */,
 				9936AA4B266F138D0080A22B /* LSImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
