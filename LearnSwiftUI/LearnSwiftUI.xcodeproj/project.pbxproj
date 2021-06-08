@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9936AA44266F09EE0080A22B /* LSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA43266F09EE0080A22B /* LSTextView.swift */; };
+		9936AA47266F11990080A22B /* LSStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA46266F11990080A22B /* LSStackView.swift */; };
 		99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */; };
 		99D7DF33266F036000BC3256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF32266F036000BC3256 /* ContentView.swift */; };
 		99D7DF35266F036100BC3256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7DF34266F036100BC3256 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		9936AA43266F09EE0080A22B /* LSTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSTextView.swift; sourceTree = "<group>"; };
+		9936AA46266F11990080A22B /* LSStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStackView.swift; sourceTree = "<group>"; };
 		99D7DF2D266F036000BC3256 /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIApp.swift; sourceTree = "<group>"; };
 		99D7DF32266F036000BC3256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
+		9936AA45266F11860080A22B /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				9936AA46266F11990080A22B /* LSStackView.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		99D7DF24266F036000BC3256 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		99D7DF2F266F036000BC3256 /* LearnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9936AA45266F11860080A22B /* Stack */,
 				9936AA42266F09BB0080A22B /* Text */,
 				99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */,
 				99D7DF32266F036000BC3256 /* ContentView.swift */,
@@ -149,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9936AA47266F11990080A22B /* LSStackView.swift in Sources */,
 				99D7DF33266F036000BC3256 /* ContentView.swift in Sources */,
 				9936AA44266F09EE0080A22B /* LSTextView.swift in Sources */,
 				99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */,
