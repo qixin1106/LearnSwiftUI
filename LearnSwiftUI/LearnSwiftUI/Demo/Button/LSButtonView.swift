@@ -27,7 +27,7 @@ struct LSButtonView: View {
             }, label: {
                 //水平布局，图文样式
                 HStack {
-                    Image("2048")
+                    Image("dog")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50, alignment: .center)

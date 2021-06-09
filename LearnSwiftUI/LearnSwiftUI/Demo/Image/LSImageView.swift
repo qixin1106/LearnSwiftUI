@@ -12,7 +12,7 @@ struct LSImageView: View {
         
         VStack {
             
-            Image("2048")
+            Image("dog")
                 //可缩放，不开启它，无法使用aspectRatio
                 .resizable()
                 //缩放模式，如UIKit
@@ -20,7 +20,7 @@ struct LSImageView: View {
                 .cornerRadius(50)
                 .frame(width: 100, height: 100, alignment: .center)
             
-            Image("2048")
+            Image("dog")
                 //可缩放，不开启它，无法使用aspectRatio
                 .resizable()
                 //缩放模式，如UIKit
@@ -30,7 +30,7 @@ struct LSImageView: View {
 
             
             //UIImage方式
-            Image(uiImage: UIImage(named: "2048")!)
+            Image(uiImage: UIImage(named: "dog")!)
                 //可缩放，不开启它，无法使用aspectRatio
                 .resizable()
                 //缩放模式，如UIKit

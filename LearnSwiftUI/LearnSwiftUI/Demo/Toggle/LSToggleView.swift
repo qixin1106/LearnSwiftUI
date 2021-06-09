@@ -20,7 +20,7 @@ struct LSToggleView: View {
         
         //类似UISwitch
         Toggle(isOn: $isOn, label: {
-            Image("2048")
+            Image("dog")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 64, height: 64, alignment: .center)
