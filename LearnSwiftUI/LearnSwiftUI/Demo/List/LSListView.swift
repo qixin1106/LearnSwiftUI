@@ -69,8 +69,9 @@ struct LSListView: View {
                 }
 
             }
+//            .animation(.easeInOut)
             //设置导航标题
-            .navigationTitle("人民教育出版社")
+            .navigationTitle("人民教育出版社(\(items.count))")
             .listStyle(InsetGroupedListStyle())
             //设置导航栏按钮
             .toolbar {
