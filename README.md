@@ -9,4 +9,6 @@
 - Image
 - VStack/HStack
 - Toggle
-- Picker
+- Picker/DatePicker
+- ScrollView
+- List
