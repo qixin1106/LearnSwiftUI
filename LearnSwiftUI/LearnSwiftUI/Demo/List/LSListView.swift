@@ -18,7 +18,7 @@ struct ListItemModel: Identifiable {
 //MARK: ListView
 struct LSListView: View {
         
-    var items: [ListItemModel] = [
+    @State private var items: [ListItemModel] = [
         ListItemModel(name: "LiLei", descs: "人民教育出版社", imageName: "dog"),
         ListItemModel(name: "HanMeiMei", descs: "人民教育出版社", imageName: "dog"),
         ListItemModel(name: "Lily", descs: "人民教育出版社", imageName: "dog"),
@@ -30,6 +30,21 @@ struct LSListView: View {
         ListItemModel(name: "Miss Gao", descs: "人民教育出版社", imageName: "dog"),
     ]
     
+    func deleteCell(indexSet: IndexSet) {
+        items.remove(atOffsets: indexSet)
+    }
+    func moveCell(indices: IndexSet, newOffset: Int) {
+        items.move(fromOffsets: indices, toOffset: newOffset)
+    }
+    func addCell() {
+        let newItem: ListItemModel = ListItemModel(name: createName(), descs: "教育人民出版社", imageName: "dog")
+        items.append(newItem)
+    }
+    func createName() -> String {
+        let names: [String] = ["大聪明","小聪明","小红","小明","狗蛋","二丫"]
+        let index: Int = Int(arc4random())%names.count
+        return names[index]
+    }
     
     var body: some View {
         
@@ -37,20 +52,45 @@ struct LSListView: View {
             //相当于TableView
             List {
                 
-                ForEach (items) { item in
-                    
-                    //NavigationLink用来实现PushController
-                    NavigationLink(
-                        destination: LSSecondDetailView(item: item),
-                        label: {
-                            LSListRowView(item: item)
-                        })
-                    
+                //Section布局
+                Section(header: Text("Grade 1 Class 9")) {
+                    ForEach (items) { item in
+                        
+                        //NavigationLink用来实现PushController
+                        NavigationLink(
+                            destination: LSSecondDetailView(item: item),
+                            label: {
+                                LSListRowView(item: item)
+                            })
+                        
+                    }
+                    .onDelete(perform: deleteCell)
+                    .onMove(perform: moveCell)
                 }
+
             }
             //设置导航标题
             .navigationTitle("人民教育出版社")
-            .listStyle(InsetListStyle())
+            .listStyle(InsetGroupedListStyle())
+            //设置导航栏按钮
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    //编辑按钮
+                    EditButton()
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    
+                    HStack{
+                        Button("开除") {
+                            deleteCell(indexSet: IndexSet(integer: .zero))
+                        }
+                        Button("入学") {
+                            addCell()
+                        }
+                    }
+                }
+
+            }
         })
     }
 }
