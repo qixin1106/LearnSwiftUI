@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LSStackView: View {
+    
+    
     var body: some View {
         
         //水平布局
@@ -32,12 +34,28 @@ struct LSStackView: View {
                 Text("Row1")
                 Text("Row2")
                 Text("Row2")
+                
             })
 
+            ZStack {
+                ForEach(0..<9) { index in
+                    Rectangle()
+                        .border(createColor(index: index), width: 1)
+                        .foregroundColor(.clear)
+                        .frame(width: 100, height: 100, alignment: .center)
+                        .rotationEffect(Angle(degrees: Double(index)*10.0), anchor: .center)
+                }
+            }
+
         })
-        
+    }
+    
+    
+    func createColor(index: Int) -> Color {
+        return Color(red: Double(index)*20.0/255.0, green: 0, blue: 0)
     }
 }
+
 
 struct LSStackView_Previews: PreviewProvider {
     static var previews: some View {
