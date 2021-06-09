@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9932A6762670950B0018E766 /* LSDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932A6752670950B0018E766 /* LSDatePickerView.swift */; };
 		9932A6792670A5890018E766 /* LSProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932A6782670A5890018E766 /* LSProgressView.swift */; };
+		9932A67B2670B3BD0018E766 /* LSColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932A67A2670B3BD0018E766 /* LSColorPickerView.swift */; };
 		9936AA5D266F2B3A0080A22B /* LSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA54266F2B3A0080A22B /* LSImageView.swift */; };
 		9936AA5E266F2B3A0080A22B /* LSToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA56266F2B3A0080A22B /* LSToggleView.swift */; };
 		9936AA5F266F2B3A0080A22B /* LSButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA58266F2B3A0080A22B /* LSButtonView.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		9932A6752670950B0018E766 /* LSDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSDatePickerView.swift; sourceTree = "<group>"; };
 		9932A6782670A5890018E766 /* LSProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSProgressView.swift; sourceTree = "<group>"; };
+		9932A67A2670B3BD0018E766 /* LSColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSColorPickerView.swift; sourceTree = "<group>"; };
 		9936AA54266F2B3A0080A22B /* LSImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageView.swift; sourceTree = "<group>"; };
 		9936AA56266F2B3A0080A22B /* LSToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSToggleView.swift; sourceTree = "<group>"; };
 		9936AA58266F2B3A0080A22B /* LSButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSButtonView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				9936AA62266F2B4D0080A22B /* LSPickerView.swift */,
 				9932A6752670950B0018E766 /* LSDatePickerView.swift */,
+				9932A67A2670B3BD0018E766 /* LSColorPickerView.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				99887F03267070ED005D6CEF /* LSScrollView.swift in Sources */,
 				9932A6762670950B0018E766 /* LSDatePickerView.swift in Sources */,
+				9932A67B2670B3BD0018E766 /* LSColorPickerView.swift in Sources */,
 				9936AA5D266F2B3A0080A22B /* LSImageView.swift in Sources */,
 				9936AA5E266F2B3A0080A22B /* LSToggleView.swift in Sources */,
 				9936AA5F266F2B3A0080A22B /* LSButtonView.swift in Sources */,
