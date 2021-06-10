@@ -18,6 +18,7 @@
 		9936AA63266F2B4D0080A22B /* LSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA62266F2B4D0080A22B /* LSPickerView.swift */; };
 		99887F03267070ED005D6CEF /* LSScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99887F02267070ED005D6CEF /* LSScrollView.swift */; };
 		99887F05267070FC005D6CEF /* LSListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99887F04267070FC005D6CEF /* LSListView.swift */; };
+		998EB4AA2671EBBD00AA4A2B /* LSGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998EB4A92671EBBD00AA4A2B /* LSGroupView.swift */; };
 		99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */; };
 		99D7DF33266F036000BC3256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF32266F036000BC3256 /* ContentView.swift */; };
 		99D7DF35266F036100BC3256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7DF34266F036100BC3256 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		9936AA62266F2B4D0080A22B /* LSPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPickerView.swift; sourceTree = "<group>"; };
 		99887F02267070ED005D6CEF /* LSScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSScrollView.swift; sourceTree = "<group>"; };
 		99887F04267070FC005D6CEF /* LSListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSListView.swift; sourceTree = "<group>"; };
+		998EB4A92671EBBD00AA4A2B /* LSGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSGroupView.swift; sourceTree = "<group>"; };
 		99D7DF2D266F036000BC3256 /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIApp.swift; sourceTree = "<group>"; };
 		99D7DF32266F036000BC3256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		9936AA51266F2B3A0080A22B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				998EB4A82671EBB200AA4A2B /* Group */,
 				9932A6772670A57B0018E766 /* ProgressView */,
 				99887F01267070DE005D6CEF /* ScrollView */,
 				99887F00267070CE005D6CEF /* List */,
@@ -143,6 +146,14 @@
 				99887F02267070ED005D6CEF /* LSScrollView.swift */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		998EB4A82671EBB200AA4A2B /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				998EB4A92671EBBD00AA4A2B /* LSGroupView.swift */,
+			);
+			path = Group;
 			sourceTree = "<group>";
 		};
 		99D7DF24266F036000BC3256 = {
@@ -254,6 +265,7 @@
 				99887F03267070ED005D6CEF /* LSScrollView.swift in Sources */,
 				9932A6762670950B0018E766 /* LSDatePickerView.swift in Sources */,
 				9932A67B2670B3BD0018E766 /* LSColorPickerView.swift in Sources */,
+				998EB4AA2671EBBD00AA4A2B /* LSGroupView.swift in Sources */,
 				9936AA5D266F2B3A0080A22B /* LSImageView.swift in Sources */,
 				9936AA5E266F2B3A0080A22B /* LSToggleView.swift in Sources */,
 				9936AA5F266F2B3A0080A22B /* LSButtonView.swift in Sources */,
