@@ -7,8 +7,9 @@
 - Text
 - Button
 - Image
-- VStack/HStack
+- VStack/HStack/ZStack
 - Toggle
 - Picker/DatePicker
 - ScrollView
 - List
+- Progress
