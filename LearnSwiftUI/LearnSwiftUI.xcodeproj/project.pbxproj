@@ -19,6 +19,7 @@
 		99887F03267070ED005D6CEF /* LSScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99887F02267070ED005D6CEF /* LSScrollView.swift */; };
 		99887F05267070FC005D6CEF /* LSListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99887F04267070FC005D6CEF /* LSListView.swift */; };
 		998EB4AA2671EBBD00AA4A2B /* LSGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998EB4A92671EBBD00AA4A2B /* LSGroupView.swift */; };
+		998EB4AD267201A800AA4A2B /* LSTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998EB4AC267201A800AA4A2B /* LSTabView.swift */; };
 		99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */; };
 		99D7DF33266F036000BC3256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF32266F036000BC3256 /* ContentView.swift */; };
 		99D7DF35266F036100BC3256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7DF34266F036100BC3256 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		99887F02267070ED005D6CEF /* LSScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSScrollView.swift; sourceTree = "<group>"; };
 		99887F04267070FC005D6CEF /* LSListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSListView.swift; sourceTree = "<group>"; };
 		998EB4A92671EBBD00AA4A2B /* LSGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSGroupView.swift; sourceTree = "<group>"; };
+		998EB4AC267201A800AA4A2B /* LSTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSTabView.swift; sourceTree = "<group>"; };
 		99D7DF2D266F036000BC3256 /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7DF30266F036000BC3256 /* LearnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIApp.swift; sourceTree = "<group>"; };
 		99D7DF32266F036000BC3256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		9936AA51266F2B3A0080A22B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				998EB4AB2672019C00AA4A2B /* TabView */,
 				998EB4A82671EBB200AA4A2B /* Group */,
 				9932A6772670A57B0018E766 /* ProgressView */,
 				99887F01267070DE005D6CEF /* ScrollView */,
@@ -154,6 +157,14 @@
 				998EB4A92671EBBD00AA4A2B /* LSGroupView.swift */,
 			);
 			path = Group;
+			sourceTree = "<group>";
+		};
+		998EB4AB2672019C00AA4A2B /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				998EB4AC267201A800AA4A2B /* LSTabView.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 		99D7DF24266F036000BC3256 = {
@@ -275,6 +286,7 @@
 				9936AA63266F2B4D0080A22B /* LSPickerView.swift in Sources */,
 				9936AA61266F2B3A0080A22B /* LSStackView.swift in Sources */,
 				99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */,
+				998EB4AD267201A800AA4A2B /* LSTabView.swift in Sources */,
 				99887F05267070FC005D6CEF /* LSListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
