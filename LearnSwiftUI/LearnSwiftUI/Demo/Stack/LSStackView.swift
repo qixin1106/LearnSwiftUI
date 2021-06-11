@@ -46,6 +46,18 @@ struct LSStackView: View {
                         .rotationEffect(Angle(degrees: Double(index)*10.0), anchor: .center)
                 }
             }
+            .compositingGroup()
+            .luminanceToAlpha()
+            .overlay(
+                ZStack {
+                    Circle()
+                        .foregroundColor(.yellow)
+
+                    Circle()
+                        .foregroundColor(.red)
+                        .shadow(color: .orange, radius: 30, x: 0.0, y: 0.0)
+                }
+            )
 
         })
     }
