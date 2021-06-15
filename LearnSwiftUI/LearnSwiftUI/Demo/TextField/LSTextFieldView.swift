@@ -15,7 +15,8 @@ struct LSTextFieldView: View {
     
     var body: some View {
         VStack {
-            
+            Spacer()
+
             Text(inputText)
                 .font(.title)
                 .foregroundColor(isEditing ? textColor : .black)
@@ -28,22 +29,21 @@ struct LSTextFieldView: View {
                     
                     textColor = Color(red: r/255.0, green: g/255.0, blue: b/255.0)
                 })
-            
-            HStack {
+
+            Divider()
+
+            TextField("Input Name", text: $inputText) { editing in
+                isEditing = editing
+            } onCommit: {
                 
-                Text("Name:")
-                TextField("Input Name", text: $inputText) { editing in
-                    isEditing = editing
-                } onCommit: {
-                    
-                }
-                .frame(width: 128, height: 32, alignment: .center)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .autocapitalization(.none)
-                .disableAutocorrection(true)
-                .keyboardType(.default)
-                .textContentType(.username)
             }
+            .frame(width: .infinity, height: .infinity, alignment: .center)
+            .textFieldStyle(DefaultTextFieldStyle())
+            .autocapitalization(.none)
+            .disableAutocorrection(true)
+            .keyboardType(.default)
+            .textContentType(.username)
+            
         }
     }
 }
