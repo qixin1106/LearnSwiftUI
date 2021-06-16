@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Foundation
+
 
 struct MessageModel: Identifiable {
     var id = UUID()
@@ -18,10 +20,11 @@ struct MessageModel: Identifiable {
 struct LSTextEditorView: View {
     
     
-    @State private var content: String = "Text"
-    
+    @State private var content: String = "Hello World"
+
     
     init() {
+        
         UITextView.appearance().backgroundColor = UIColor.clear
     }
     
@@ -30,26 +33,30 @@ struct LSTextEditorView: View {
             VStack(alignment: .leading, spacing: nil, content: {
                 
                 MessageListView()
-                
                 Spacer()
-                Divider().padding(.bottom, 5)
-                HStack(alignment: .center, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
+                Divider()
+                HStack(alignment: .bottom, spacing: nil, content: {
                     
                     Button(action: {
                         
                     }, label: {
                         Image(systemName: "mic.circle.fill").font(.title)
                     })
-                    .padding(.leading, 10)
-
+                    
+                    
+                    /**
+                     类似TextView
+                     */
                     TextEditor(text: $content)
                         .font(.system(size: 18))
-                        .padding([.leading,.trailing], 10)
-                        .multilineTextAlignment(.leading)
-                        .frame(width: .infinity, height: 40, alignment: .center)
+                        .frame(width: .infinity, height: 38, alignment: .center)
+                        .padding([.leading,.trailing], 5)
                         .background(Color(white: 0.9))
                         .clipShape(RoundedRectangle(cornerRadius: 8))
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)
                     
+
                     
                     Button(action: {
                         
@@ -57,20 +64,27 @@ struct LSTextEditorView: View {
                         Image(systemName: "face.smiling.fill").font(.title)
                     })
                     
+                    
+                    
+                    
                     Button(action: {
                         
                     }, label: {
                         Image(systemName: "plus.circle.fill").font(.title)
                     })
-                    .padding(.trailing, 10)
-
-
+                    
+                    
                 })
+                .padding(.all, 10)
             })
             .navigationTitle("Group")
             .navigationBarTitleDisplayMode(.inline)
+            
+            
         }
     }
+    
+    
 }
 
 struct MessageListView: View {
