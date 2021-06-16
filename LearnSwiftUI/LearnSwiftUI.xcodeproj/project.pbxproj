@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990FBD9C2679F50B00E7778D /* LSSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */; };
 		9932A6762670950B0018E766 /* LSDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932A6752670950B0018E766 /* LSDatePickerView.swift */; };
 		9932A6792670A5890018E766 /* LSProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932A6782670A5890018E766 /* LSProgressView.swift */; };
 		9932A67B2670B3BD0018E766 /* LSColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932A67A2670B3BD0018E766 /* LSColorPickerView.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSSecureFieldView.swift; sourceTree = "<group>"; };
 		9932A6752670950B0018E766 /* LSDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSDatePickerView.swift; sourceTree = "<group>"; };
 		9932A6782670A5890018E766 /* LSProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSProgressView.swift; sourceTree = "<group>"; };
 		9932A67A2670B3BD0018E766 /* LSColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSColorPickerView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		9961660C2673574000E357D8 /* SecureField */ = {
 			isa = PBXGroup;
 			children = (
+				990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */,
 			);
 			path = SecureField;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				9936AA5F266F2B3A0080A22B /* LSButtonView.swift in Sources */,
 				99D7DF33266F036000BC3256 /* ContentView.swift in Sources */,
 				9932A6792670A5890018E766 /* LSProgressView.swift in Sources */,
+				990FBD9C2679F50B00E7778D /* LSSecureFieldView.swift in Sources */,
 				9936AA60266F2B3A0080A22B /* LSTextView.swift in Sources */,
 				9936AA63266F2B4D0080A22B /* LSPickerView.swift in Sources */,
 				9936AA61266F2B3A0080A22B /* LSStackView.swift in Sources */,
