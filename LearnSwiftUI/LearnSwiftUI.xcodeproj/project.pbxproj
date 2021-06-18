@@ -11,6 +11,7 @@
 		990DABE8267C866100E26FCA /* LSLazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DABE7267C866100E26FCA /* LSLazyStackView.swift */; };
 		990DABEB267C8F1500E26FCA /* LSPaintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DABEA267C8F1500E26FCA /* LSPaintsView.swift */; };
 		990DABF0267CA17500E26FCA /* LSGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DABEF267CA17500E26FCA /* LSGeometryView.swift */; };
+		990DABF2267CA76400E26FCA /* LSPlayVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DABF1267CA76400E26FCA /* LSPlayVideoView.swift */; };
 		990FBD9C2679F50B00E7778D /* LSSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */; };
 		990FBD9F2679FE9F00E7778D /* LSGeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990FBD9E2679FE9F00E7778D /* LSGeometryReaderView.swift */; };
 		9914E539267C55A400426E5A /* LSFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914E538267C55A400426E5A /* LSFormView.swift */; };
@@ -45,6 +46,7 @@
 		990DABE7267C866100E26FCA /* LSLazyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSLazyStackView.swift; sourceTree = "<group>"; };
 		990DABEA267C8F1500E26FCA /* LSPaintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPaintsView.swift; sourceTree = "<group>"; };
 		990DABEF267CA17500E26FCA /* LSGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSGeometryView.swift; sourceTree = "<group>"; };
+		990DABF1267CA76400E26FCA /* LSPlayVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPlayVideoView.swift; sourceTree = "<group>"; };
 		990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSSecureFieldView.swift; sourceTree = "<group>"; };
 		990FBD9E2679FE9F00E7778D /* LSGeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSGeometryReaderView.swift; sourceTree = "<group>"; };
 		9914E538267C55A400426E5A /* LSFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFormView.swift; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				998EB4AF2672131900AA4A2B /* LSWebView.swift */,
+				990DABF1267CA76400E26FCA /* LSPlayVideoView.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				992DA228267AFCFC00E71166 /* LSSliderView.swift in Sources */,
 				9936AA63266F2B4D0080A22B /* LSPickerView.swift in Sources */,
 				9936AA61266F2B3A0080A22B /* LSStackView.swift in Sources */,
+				990DABF2267CA76400E26FCA /* LSPlayVideoView.swift in Sources */,
 				990DABEB267C8F1500E26FCA /* LSPaintsView.swift in Sources */,
 				99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */,
 				998EB4AD267201A800AA4A2B /* LSTabView.swift in Sources */,
