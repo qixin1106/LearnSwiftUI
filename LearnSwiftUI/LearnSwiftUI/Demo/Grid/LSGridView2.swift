@@ -15,7 +15,6 @@ struct LSGridView2: View {
     ]
     
     var body: some View {
-        
         ScrollView(.vertical, showsIndicators: true, content: {
             
             LazyVGrid(columns: columns, alignment: .center, spacing: 20, pinnedViews: [], content: {
@@ -41,7 +40,6 @@ struct LSGridView2: View {
             })
             
         })
-        
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990DABE6267C5A0500E26FCA /* LSOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DABE5267C5A0500E26FCA /* LSOutlineView.swift */; };
 		990FBD9C2679F50B00E7778D /* LSSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */; };
 		990FBD9F2679FE9F00E7778D /* LSGeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990FBD9E2679FE9F00E7778D /* LSGeometryReaderView.swift */; };
 		9914E539267C55A400426E5A /* LSFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914E538267C55A400426E5A /* LSFormView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		990DABE5267C5A0500E26FCA /* LSOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSOutlineView.swift; sourceTree = "<group>"; };
 		990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSSecureFieldView.swift; sourceTree = "<group>"; };
 		990FBD9E2679FE9F00E7778D /* LSGeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSGeometryReaderView.swift; sourceTree = "<group>"; };
 		9914E538267C55A400426E5A /* LSFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFormView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		990DABE4267C59F900E26FCA /* Outline */ = {
+			isa = PBXGroup;
+			children = (
+				990DABE5267C5A0500E26FCA /* LSOutlineView.swift */,
+			);
+			path = Outline;
+			sourceTree = "<group>";
+		};
 		990FBD9D2679FE9400E7778D /* GeometryReader */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		9936AA51266F2B3A0080A22B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				990DABE4267C59F900E26FCA /* Outline */,
 				9914E537267C559A00426E5A /* Form */,
 				992DA229267B258A00E71166 /* Grid */,
 				992DA226267AFCF300E71166 /* Slider */,
@@ -383,6 +394,7 @@
 				99616609267351F100E357D8 /* LSSignInWithAppleView.swift in Sources */,
 				9932A67B2670B3BD0018E766 /* LSColorPickerView.swift in Sources */,
 				990FBD9F2679FE9F00E7778D /* LSGeometryReaderView.swift in Sources */,
+				990DABE6267C5A0500E26FCA /* LSOutlineView.swift in Sources */,
 				998EB4AA2671EBBD00AA4A2B /* LSGroupView.swift in Sources */,
 				9936AA5D266F2B3A0080A22B /* LSImageView.swift in Sources */,
 				9936AA5E266F2B3A0080A22B /* LSToggleView.swift in Sources */,
