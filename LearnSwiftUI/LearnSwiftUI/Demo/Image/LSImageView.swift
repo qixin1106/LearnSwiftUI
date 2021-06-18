@@ -40,6 +40,15 @@ struct LSImageView: View {
             
             Image(systemName: "cloud.heavyrain.fill")
                 .font(.system(size: 64))
+            
+            
+            Text("I am a dog")
+                .font(.system(size: 60))
+                .background(
+                    Image("dog")
+                        .resizable()
+                )
+                .foregroundColor(.white)
         }
     }
 }
