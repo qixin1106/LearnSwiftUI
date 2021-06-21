@@ -15,6 +15,7 @@
 		990FBD9C2679F50B00E7778D /* LSSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */; };
 		990FBD9F2679FE9F00E7778D /* LSGeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990FBD9E2679FE9F00E7778D /* LSGeometryReaderView.swift */; };
 		9914E539267C55A400426E5A /* LSFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914E538267C55A400426E5A /* LSFormView.swift */; };
+		992D62EE2680538C0003228C /* LSForEachTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D62ED2680538C0003228C /* LSForEachTestView.swift */; };
 		992DA228267AFCFC00E71166 /* LSSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992DA227267AFCFC00E71166 /* LSSliderView.swift */; };
 		992DA22B267B259600E71166 /* LSGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992DA22A267B259600E71166 /* LSGridView.swift */; };
 		992DA22E267B35AA00E71166 /* LSGridView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992DA22D267B35AA00E71166 /* LSGridView2.swift */; };
@@ -50,6 +51,7 @@
 		990FBD9B2679F50B00E7778D /* LSSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSSecureFieldView.swift; sourceTree = "<group>"; };
 		990FBD9E2679FE9F00E7778D /* LSGeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSGeometryReaderView.swift; sourceTree = "<group>"; };
 		9914E538267C55A400426E5A /* LSFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFormView.swift; sourceTree = "<group>"; };
+		992D62ED2680538C0003228C /* LSForEachTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSForEachTestView.swift; sourceTree = "<group>"; };
 		992DA227267AFCFC00E71166 /* LSSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSSliderView.swift; sourceTree = "<group>"; };
 		992DA22A267B259600E71166 /* LSGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSGridView.swift; sourceTree = "<group>"; };
 		992DA22D267B35AA00E71166 /* LSGridView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSGridView2.swift; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 			path = Form;
 			sourceTree = "<group>";
 		};
+		992D62EC2680537B0003228C /* ForEach */ = {
+			isa = PBXGroup;
+			children = (
+				992D62ED2680538C0003228C /* LSForEachTestView.swift */,
+			);
+			path = ForEach;
+			sourceTree = "<group>";
+		};
 		992DA226267AFCF300E71166 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 		9936AA51266F2B3A0080A22B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				992D62EC2680537B0003228C /* ForEach */,
 				990DABEE267CA16800E26FCA /* Geometry */,
 				990DABE9267C8F0800E26FCA /* Paints */,
 				990DABE4267C59F900E26FCA /* Outline */,
@@ -446,6 +457,7 @@
 				9955C063267882E10087FB7D /* LSTextEditorView.swift in Sources */,
 				99887F05267070FC005D6CEF /* LSListView.swift in Sources */,
 				9961660E2673575800E357D8 /* LSTextFieldView.swift in Sources */,
+				992D62EE2680538C0003228C /* LSForEachTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
