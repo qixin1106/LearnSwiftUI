@@ -55,6 +55,7 @@ struct LSTextView: View {
             
             Text("Hello World")
                 .italic()
+                .redacted(reason: .placeholder)
             
             
             
