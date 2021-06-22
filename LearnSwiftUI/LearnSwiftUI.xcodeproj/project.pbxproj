@@ -30,6 +30,7 @@
 		9936AA61266F2B3A0080A22B /* LSStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA5C266F2B3A0080A22B /* LSStackView.swift */; };
 		9936AA63266F2B4D0080A22B /* LSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA62266F2B4D0080A22B /* LSPickerView.swift */; };
 		9955C063267882E10087FB7D /* LSTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955C062267882E10087FB7D /* LSTextEditorView.swift */; };
+		995E955A2681BEA30093F617 /* LSAllstarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E95592681BEA30093F617 /* LSAllstarView.swift */; };
 		99616609267351F100E357D8 /* LSSignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99616608267351F100E357D8 /* LSSignInWithAppleView.swift */; };
 		9961660E2673575800E357D8 /* LSTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961660D2673575800E357D8 /* LSTextFieldView.swift */; };
 		99887F03267070ED005D6CEF /* LSScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99887F02267070ED005D6CEF /* LSScrollView.swift */; };
@@ -67,6 +68,7 @@
 		9936AA5C266F2B3A0080A22B /* LSStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStackView.swift; sourceTree = "<group>"; };
 		9936AA62266F2B4D0080A22B /* LSPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPickerView.swift; sourceTree = "<group>"; };
 		9955C062267882E10087FB7D /* LSTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSTextEditorView.swift; sourceTree = "<group>"; };
+		995E95592681BEA30093F617 /* LSAllstarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSAllstarView.swift; sourceTree = "<group>"; };
 		99616606267351AC00E357D8 /* LearnSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearnSwiftUI.entitlements; sourceTree = "<group>"; };
 		99616608267351F100E357D8 /* LSSignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSSignInWithAppleView.swift; sourceTree = "<group>"; };
 		9961660D2673575800E357D8 /* LSTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSTextFieldView.swift; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				99887F04267070FC005D6CEF /* LSListView.swift */,
+				995E95592681BEA30093F617 /* LSAllstarView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				9932A6792670A5890018E766 /* LSProgressView.swift in Sources */,
 				992D62F3268088E90003228C /* LSLabelTestView.swift in Sources */,
 				990FBD9C2679F50B00E7778D /* LSSecureFieldView.swift in Sources */,
+				995E955A2681BEA30093F617 /* LSAllstarView.swift in Sources */,
 				992DA22B267B259600E71166 /* LSGridView.swift in Sources */,
 				992DA22E267B35AA00E71166 /* LSGridView2.swift in Sources */,
 				9936AA60266F2B3A0080A22B /* LSTextView.swift in Sources */,
