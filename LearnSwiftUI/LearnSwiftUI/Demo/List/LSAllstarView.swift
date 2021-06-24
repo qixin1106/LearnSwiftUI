@@ -101,7 +101,6 @@ struct LSAllStarShopView: View {
                     .bold()
                     .padding([.top], 10)
 
-                
                 ZStack(alignment: Alignment(horizontal: .leading, vertical: .bottom), content: {
                     Image("Waffen_Florett")
                         .resizable()
