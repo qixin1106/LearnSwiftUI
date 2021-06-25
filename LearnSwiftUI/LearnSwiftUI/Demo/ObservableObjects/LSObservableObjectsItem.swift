@@ -37,7 +37,7 @@ class LSObservableObjectsItem: ObservableObject {
         */
         
         //测试objectWillChange手动发送方式
-        for num in 1...10 {
+        for num in 1...1000 {
             let deadlineTime = DispatchTime.now() + .seconds(num)
             DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
                 self.age += 1

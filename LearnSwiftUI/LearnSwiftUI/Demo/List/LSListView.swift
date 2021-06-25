@@ -92,6 +92,7 @@ struct LSListView: View {
                 }
 
             }
+            
         })
     }
 }

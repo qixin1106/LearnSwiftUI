@@ -32,6 +32,7 @@
 		9936AA63266F2B4D0080A22B /* LSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936AA62266F2B4D0080A22B /* LSPickerView.swift */; };
 		9953090B268588E50090B3C3 /* LSObservableObjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953090A268588E50090B3C3 /* LSObservableObjectsView.swift */; };
 		9953090D268588FE0090B3C3 /* LSObservableObjectsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953090C268588FE0090B3C3 /* LSObservableObjectsItem.swift */; };
+		995309102685C97F0090B3C3 /* LSEnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953090F2685C97F0090B3C3 /* LSEnvironmentObjectView.swift */; };
 		9955C063267882E10087FB7D /* LSTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955C062267882E10087FB7D /* LSTextEditorView.swift */; };
 		995E955A2681BEA30093F617 /* LSAllstarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E95592681BEA30093F617 /* LSAllstarView.swift */; };
 		99616609267351F100E357D8 /* LSSignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99616608267351F100E357D8 /* LSSignInWithAppleView.swift */; };
@@ -73,6 +74,7 @@
 		9936AA62266F2B4D0080A22B /* LSPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPickerView.swift; sourceTree = "<group>"; };
 		9953090A268588E50090B3C3 /* LSObservableObjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSObservableObjectsView.swift; sourceTree = "<group>"; };
 		9953090C268588FE0090B3C3 /* LSObservableObjectsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSObservableObjectsItem.swift; sourceTree = "<group>"; };
+		9953090F2685C97F0090B3C3 /* LSEnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSEnvironmentObjectView.swift; sourceTree = "<group>"; };
 		9955C062267882E10087FB7D /* LSTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSTextEditorView.swift; sourceTree = "<group>"; };
 		995E95592681BEA30093F617 /* LSAllstarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSAllstarView.swift; sourceTree = "<group>"; };
 		99616606267351AC00E357D8 /* LearnSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearnSwiftUI.entitlements; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 			children = (
 				9953090A268588E50090B3C3 /* LSObservableObjectsView.swift */,
 				9953090C268588FE0090B3C3 /* LSObservableObjectsItem.swift */,
+				9953090F2685C97F0090B3C3 /* LSEnvironmentObjectView.swift */,
 			);
 			path = ObservableObjects;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				9936AA63266F2B4D0080A22B /* LSPickerView.swift in Sources */,
 				9936AA61266F2B3A0080A22B /* LSStackView.swift in Sources */,
 				990DABF2267CA76400E26FCA /* LSPlayVideoView.swift in Sources */,
+				995309102685C97F0090B3C3 /* LSEnvironmentObjectView.swift in Sources */,
 				990DABEB267C8F1500E26FCA /* LSPaintsView.swift in Sources */,
 				99D7DF31266F036000BC3256 /* LearnSwiftUIApp.swift in Sources */,
 				998EB4AD267201A800AA4A2B /* LSTabView.swift in Sources */,
